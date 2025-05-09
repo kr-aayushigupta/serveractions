@@ -9,6 +9,6 @@ export default async function fetchTodos() {
 
         return todos
     } catch (err) {
-        if (err instanceof Error) console.log(err.stack)
+        if (err instanceof Error) {console.log(err.stack); console.log(err.message)}
     }
 }
