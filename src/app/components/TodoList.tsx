@@ -3,7 +3,6 @@ import fetchTodos from "@/lib/fetchTodos"
 
 export default async function TodoList() {
     const todos = await fetchTodos()
-
     let content
     if (!todos || todos.length === 0) {
         content = (
@@ -20,6 +19,8 @@ export default async function TodoList() {
             </>
         )
     }
+
+
 
     return content
 }

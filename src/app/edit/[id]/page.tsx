@@ -13,7 +13,6 @@ export default async function page({ params: { id } }: Props) {
     const todo = await fetchTodo(id)
 
     if (!todo) notFound()
-
     return (
         <Todo {...todo} />
     )

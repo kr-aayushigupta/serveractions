@@ -11,10 +11,8 @@ export default function Todo(todo: Todo) {
             <label htmlFor="completed" className="text-2xl hover:underline">
                 <Link href={`/edit/${todo.id}`}>{todo.title}</Link>
             </label>
-
             <div className="flex items-center gap-4">
                 <UpdateCheckbox todo={todo} />
-
                 <button
                     formAction={async () => {
                         'use server'
@@ -24,7 +22,6 @@ export default function Todo(todo: Todo) {
                     <FaTrash />
                 </button>
             </div>
-
             </div>
         </form>
     )

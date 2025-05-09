@@ -19,7 +19,7 @@ export async function addTodo(data: FormData) {
         })
     })
 
-    revalidatePath('/')
+    revalidatePath('/') // revalidating so that newer data is displayed immediately {basically handling caching}
 }
 
 
@@ -39,7 +39,7 @@ export async function deleteTodo(
     })
 
     await res.json()
-    revalidatePath('/')
+    revalidatePath('/') // revalidating so that newer data is displayed immediately {basically handling caching}
 }
 
 
@@ -59,5 +59,5 @@ export async function updateTodo(
     })
 
     await res.json()
-    revalidatePath('/')
+    revalidatePath('/') // revalidating so that newer data is displayed immediately {basically handling caching}
 }

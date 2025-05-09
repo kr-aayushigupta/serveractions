@@ -21,9 +21,7 @@ export default function UpdateCheckbox({
             completed: boolean
         ) => ({ ...state, completed })
     )
-
     return (
-
         <input
             type="checkbox"
             checked={optimisticTodo.completed}
@@ -39,6 +37,5 @@ export default function UpdateCheckbox({
             disabled={pending}
             className="min-w-[2rem] min-h-[2rem]"
         />
-
     )
 }

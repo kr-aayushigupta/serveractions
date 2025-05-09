@@ -16,25 +16,25 @@
       "userId": 1,
       "title": "hey hey",
       "id": "5",
-      "completed": false
+      "completed": true
     },
     {
       "userId": 1,
       "title": "Vacation! 🌴",
-      "completed": false,
+      "completed": true,
       "id": "6"
     },
     {
       "id": "c363",
       "userId": 1,
       "title": "Go home",
-      "completed": false
+      "completed": true
     },
     {
       "id": "a7a3",
       "userId": 1,
       "title": "Mock drill",
-      "completed": true
+      "completed": false
     },
     {
       "id": "663f",
@@ -43,9 +43,9 @@
       "completed": false
     },
     {
-      "id": "31cc",
+      "id": "e0ae",
       "userId": 1,
-      "title": "Mock Drill2",
+      "title": "Make Money",
       "completed": false
     }
   ]
