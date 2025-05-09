@@ -4,6 +4,9 @@ import fetchTodos from "@/lib/fetchTodos"
 export default async function TodoList() {
     const todos = await fetchTodos()
     let content
+
+
+    
     if (!todos || todos.length === 0) {
         content = (
             <p>No Todos Available</p>

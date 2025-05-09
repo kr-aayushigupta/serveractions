@@ -1,3 +1,4 @@
+
 import { FaTrash } from "react-icons/fa"
 import Link from "next/link"
 import { deleteTodo } from "@/lib/actions"
@@ -23,6 +24,10 @@ export default function Todo(todo: Todo) {
                 </button>
             </div>
             </div>
+
+
+
+            
         </form>
     )
 }

@@ -34,19 +34,19 @@
       "id": "a7a3",
       "userId": 1,
       "title": "Mock drill",
-      "completed": false
+      "completed": true
     },
     {
       "id": "663f",
       "userId": 1,
       "title": "Go to office",
-      "completed": false
+      "completed": true
     },
     {
       "id": "e0ae",
       "userId": 1,
       "title": "Make Money",
-      "completed": false
+      "completed": true
     }
   ]
 }
