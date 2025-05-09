@@ -9,9 +9,10 @@ export default function AddTodo() {
             <input
                 type="text"
                 name="title"
-                className="text-2xl p-1 rounded-lg flex-grow w-full"
+                className="text-2xl p-1 rounded-lg flex-grow w-full border-2 border-grey-200"
                 placeholder="Add your Todo here"
                 autoFocus
+
             />
 
             <button type="submit" className="p-2 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-yellow-600 dark:bg-green-500 hover:cursor-pointer hover:bg-green-400">

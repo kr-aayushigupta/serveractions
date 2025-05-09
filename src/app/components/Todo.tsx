@@ -6,8 +6,8 @@ import UpdateCheckbox from "./UpdateCheckbox"
 export default function Todo(todo: Todo) {
 
     return (
-        <form className="my-4 flex justify-between items-center">
-
+        <form>
+            <div  className="my-4 flex justify-between items-center hover:bg-green-100 rounded-sm">
             <label htmlFor="completed" className="text-2xl hover:underline">
                 <Link href={`/edit/${todo.id}`}>{todo.title}</Link>
             </label>
@@ -20,9 +20,11 @@ export default function Todo(todo: Todo) {
                         'use server'
                         await deleteTodo(todo)
                     }}
-                    className="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300">
+                    className="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-500">
                     <FaTrash />
                 </button>
+            </div>
+
             </div>
         </form>
     )
