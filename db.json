@@ -34,6 +34,18 @@
       "id": "a7a3",
       "userId": 1,
       "title": "Mock drill",
+      "completed": true
+    },
+    {
+      "id": "663f",
+      "userId": 1,
+      "title": "Go to office",
+      "completed": false
+    },
+    {
+      "id": "31cc",
+      "userId": 1,
+      "title": "Mock Drill2",
       "completed": false
     }
   ]

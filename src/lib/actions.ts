@@ -2,6 +2,9 @@
 
 import { revalidatePath } from "next/cache"
 
+
+// Add todo server action
+
 export async function addTodo(data: FormData) {
 
     const title = data.get("title")
@@ -20,6 +23,7 @@ export async function addTodo(data: FormData) {
 }
 
 
+// Delete todo server action
 
 export async function deleteTodo(
     todo: Todo
@@ -38,6 +42,8 @@ export async function deleteTodo(
     revalidatePath('/')
 }
 
+
+// Update todo server action
 
 export async function updateTodo(
     todo: Todo

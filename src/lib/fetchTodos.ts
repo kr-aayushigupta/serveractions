@@ -1,3 +1,4 @@
+//  Server action for displaying all the Todos in the available {Also a kind of Get method}
 
 export default async function fetchTodos() {
 
